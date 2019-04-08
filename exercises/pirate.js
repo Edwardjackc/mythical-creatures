@@ -1,4 +1,4 @@
-class Pirate {
+git class Pirate {
   constructor(name, job) {
     this.name = name;
     this.job = job || 'Scallywag';
