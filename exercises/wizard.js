@@ -11,12 +11,7 @@ class Wizard {
    };
    
   cast(powerfulSpell) {
-    //if (this.case === 3)
-    //   this.isRested = false 
     return powerfulSpell.toUpperCase();
   };
 };
 module.exports = Wizard
-
-// be aware of when something needs to be returned always out of a method
-// learn protypes !!!!!!! Know what they return 

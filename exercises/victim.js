@@ -4,5 +4,4 @@
       this.alive = true;
     }
   }
-
   module.exports = Victim;

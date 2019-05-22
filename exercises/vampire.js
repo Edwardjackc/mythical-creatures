@@ -1,120 +1,12 @@
 class Vampire {
-  constructor(name, pet) {
+  constructor(name,pet) {
     this.name = name;
-    this.pet = pet || 'bat';
-    this.thirsty = true;
+    this.pet = pet || 'bat'
+    this.thirsty = true
   }
   drink() {
-    this.thirsty = false;
+    this.thirsty= false 
   }
 }
 
 module.exports = Vampire
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// class Vampire {
-//   constructor(name, pet) {
-//     this.name = name
-//     this.pet = pet || 'bat'
-//     this.thirsty = true
-//   }
-//   drink() {
-//   this.thirsty = false
-//   }
-// }
-// module.exports = Vampire 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// class Vampire {
-//  constructor(name,pet) {
-//   this.name = name 
-//   this.pet = pet || 'bat'
-//   this.thirsty = true
-//  } 
-//  drink() {
-//   this.thirsty = false 
-//  }
-// }
-
-// module.exports = Vampire 

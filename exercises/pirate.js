@@ -1,14 +1,11 @@
-git class Pirate {
+class Pirate {
   constructor(name, job) {
     this.name = name;
     this.job = job || 'Scallywag';
     this.cursed = false;
     this.heinousAct = 0
     this.booty = 0 
-  
-
   }
-
   commitHeinousAct() {
     this.heinousAct++;
     if (this.heinousAct >= 3) {
@@ -20,4 +17,5 @@ git class Pirate {
     return 'YAARRR!'
   }
 }
+
 module.exports = Pirate

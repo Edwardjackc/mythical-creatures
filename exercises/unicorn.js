@@ -13,10 +13,10 @@ class Unicorn {
   
 module.exports = Unicorn;
 
-1. read the test
-2. ask yourself if its going to fail 
-3. run the test
-4. make it pass   
+// 1. read the test
+// 2. ask yourself if its going to fail 
+// 3. run the test
+// 4. make it pass   
 
 
 

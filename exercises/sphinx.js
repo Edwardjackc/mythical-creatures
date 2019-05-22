@@ -9,11 +9,10 @@ class Sphinx {
       this.riddles.shift();
     }
   attemptAnswer(answer) {
-    if (this.riddles.answer === answer) {
-   var answerIndex = findIndex(function(answer)
-   answerIndex.splice(0,1)
+    for (var i = 0; i < this.riddles[i].length; i++)
+    if (this.riddles[i].answer === answer) {
+  this.riddles.splice([i],1)
     }
   }
 }
-
 module.exports = Sphinx 
