@@ -23,7 +23,6 @@ class Ogre {
    apologize(human) {
      human.knockedOut = false;
    }
-
-}
+  }
 
 module.exports = Ogre;
